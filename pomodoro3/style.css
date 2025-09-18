@@ -3,8 +3,8 @@
 /* General */
 
 body {
-  font-family: 'Sans serif', ;
-  background-color: #D1C4E9; color: #D1C4E9
+  font-family: 'Serif', ;
+  background-color: #1d1e2b; color: #1d1e2b
 }
 
 #root {
@@ -16,28 +16,28 @@ body {
 
 button,
 button:active {
-  background-color: rgb (209, 196, 233);
+  background-color: rgb (56, 67, 79);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(209, 196, 233); 
-  -webkit-box-shadow: 0.2em 0.2em rgb(209, 196, 233); 
-  -moz-box-shadow: 0.2em 0.2em rgb(209, 196, 233);
+  box-shadow: 0.2em 0.2em rgb(56, 67, 79); 
+  -webkit-box-shadow: 0.2em 0.2em rgb(56, 67, 79); 
+  -moz-box-shadow: 0.2em 0.2em rgb(56, 67, 79);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(209, 196, 233) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(209, 196, 233) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(209, 196, 233) inset;
+  box-shadow: 0.2em 0.2em rgb(56, 67, 79) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(56, 67, 79) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(56, 67, 79) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(255,255,255); 
+  background-color: rgb(217,238,252); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -49,10 +49,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(255,255,255);
+  background-color: rgb(217,238,252);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(209, 196, 233) inset;
+  box-shadow: 3px 3px rgb(56, 67, 79) inset;
 }
 
 #display-controls {
@@ -64,10 +64,10 @@ button:focus {
 }
 
 #timer-label {
-  font-size: 27px; color: #EDECE9;
+  font-size: 27px; color: #c2d9e8;
   text-align: center;
   padding-top: 10px;
-  background-color: rgb(209, 196, 233);
+  background-color: rgb(56, 67, 79);
   border-radius: 10px;
   height: 40px;
   flex: 2;
@@ -103,7 +103,7 @@ button:focus {
 .session-container {
   text-align: center; 
 /*   display: inline-block; */
-  border: 2px solid rgb(209, 196, 233);
+  border: 2px solid rgb(56, 67, 79);
   padding: 10px;
   border-radius: 10px;
   width: 50%;
